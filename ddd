@@ -1,0 +1,133 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.665119886, 0, 0.167082295, 0)
+Frame.Size = UDim2.new(0, 241, 0, 406)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(71, 80, 255)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 241, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "School RP Loot Boxes TP"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+Frame.Selectable = true
+Frame.Active = true
+Frame.Draggable = true
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(71, 80, 255)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0, 0, 0.258620679, 0)
+TextButton.Size = UDim2.new(0, 90, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Loot Box 1"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+TextButton.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(207.973068, 23.9779243, -493.668945, -0.144010946, 1.88111784e-08, -0.989576101, -1.33154874e-08, 1, 2.09471054e-08, 0.989576101, 1.61933009e-08, -0.144010946)
+end)
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(71, 80, 255)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.622406662, 0, 0.258620679, 0)
+TextButton_2.Size = UDim2.new(0, 91, 0, 50)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Loot Box 2"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+TextButton_2.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-0.252132714, 3.05864096, -527.208618, 0.908406079, 4.06598097e-08, 0.418089032, -2.37790072e-08, 1, -4.55855407e-08, -0.418089032, 3.14684385e-08, 0.908406079)
+end)
+TextButton_3.Parent = Frame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(71, 80, 255)
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(0, 0, 0.497536957, 0)
+TextButton_3.Size = UDim2.new(0, 90, 0, 50)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Loot Box 3"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+TextButton_3.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(32.4791336, -141.215912, -666.99762, 0.957972467, 7.69216635e-10, -0.286860228, 2.53150056e-09, 1, 1.1135473e-08, 0.286860228, -1.13936638e-08, 0.957972467)
+end)
+TextButton_4.Parent = Frame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(71, 80, 255)
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(0.622406662, 0, 0.497536957, 0)
+TextButton_4.Size = UDim2.new(0, 91, 0, 50)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "Loot Box 4"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextSize = 14.000
+TextButton_4.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-310.793488, 26.5571499, -375.831207, -0.999571025, -3.7396144e-09, -0.0292872395, -4.05471789e-09, 1, 1.06996705e-08, 0.0292872395, 1.08138316e-08, -0.999571025)
+end)
+TextButton_5.Parent = Frame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(71, 80, 255)
+TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Position = UDim2.new(0, 0, 0.711822689, 0)
+TextButton_5.Size = UDim2.new(0, 90, 0, 50)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "Loot Box 5"
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextSize = 14.000
+TextButton_5.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-94.2174759, 11.0490608, -371.756561, 0.939867973, -5.23514521e-09, 0.341537923, 8.47654569e-09, 1, -7.99820032e-09, -0.341537923, 1.04123146e-08, 0.939867973)
+end)
+
+TextButton_6.Parent = Frame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(71, 80, 255)
+TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Position = UDim2.new(0.622406662, 0, 0.711822689, 0)
+TextButton_6.Size = UDim2.new(0, 91, 0, 50)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "Loot Box 6"
+TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.TextSize = 14.000
+TextButton_6.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-24.2685661, 27.0625992, -238.054108, -1, 7.27459337e-08, -9.98244786e-07, 7.27459337e-08, 1, 4.98971897e-14, 9.98244786e-07, -2.27210625e-14, -1)
+end)
+TextButton_7.Parent = Frame
+TextButton_7.BackgroundColor3 = Color3.fromRGB(71, 80, 255)
+TextButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.BorderSizePixel = 0
+TextButton_7.Position = UDim2.new(0, 0, 0.876847267, 0)
+TextButton_7.Size = UDim2.new(0, 241, 0, 50)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "Loot Box 7"
+TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.TextSize = 14.000
+TextButton_7.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-315.769714, 27.0625992, -275.311401, 0.210248277, 4.19778416e-08, 0.97764802, -2.43476421e-08, 1, -3.77014935e-08, -0.97764802, -1.58767506e-08, 0.210248277)
+end)
